@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "figr": {
+      "type": "http",
+      "url": "https://dev-mcp.figr.design/mcp"
+    }
+  }
+}

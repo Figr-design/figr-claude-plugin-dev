@@ -1,0 +1,14 @@
+{
+  "name": "figr-dev",
+  "displayName": "Figr (Dev)",
+  "version": "1.0.0",
+  "description": "Figr MCP (dev/staging) — read design canvases from https://dev-mcp.figr.design/mcp",
+  "author": {
+    "name": "Figr",
+    "url": "https://figr.design"
+  },
+  "homepage": "https://docs.figr.design/docs/design-intelligence/figr-mcp",
+  "repository": "https://github.com/Figr-design/figr-claude-plugin-dev",
+  "license": "MIT",
+  "keywords": ["figr", "mcp", "design", "ui", "dev"]
+}

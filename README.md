@@ -1,4 +1,4 @@
-# Figr — Claude Code marketplace (dev)
+# Figr - Claude Code marketplace (dev)
 
 Dev/staging install source. MCP endpoint: **`https://dev-mcp.figr.design/mcp`**
 
@@ -13,7 +13,7 @@ Prod counterpart: https://github.com/Figr-design/figr-claude-plugin → `https:/
 /plugin install figr-dev@figr-dev
 ```
 
-Do **not** install both `figr@figr` and `figr-dev@figr-dev` in the same session if both register the MCP server name `figr` — pick one.
+Do **not** install both `figr@figr` and `figr-dev@figr-dev` in the same session if both register the MCP server name `figr` - pick one.
 
 ## Layout
 

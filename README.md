@@ -23,6 +23,10 @@ figr-dev/                         # plugin → install as figr-dev@figr-dev
   .claude-plugin/plugin.json
   .mcp.json                       # → https://dev-mcp.figr.design/mcp
   skills/figr-mcp/
+  skills/prototype-constraints/
+  skills/design-system/
+  skills/wireframe-styling/
+  skills/skill-creator/
 ```
 
 ## Sync from monorepo

@@ -26,7 +26,7 @@ Two workflows:
 | Read | `read` | Deep-agent source: raw paginated `content` + `downloadUrl` (curl -L for as-is). |
 | Search | `grep` | JS RegExp. Prefer scoping `path`. |
 | Design + chat context | `get_design_context` | Code **plus** the conversation. Prefer when reimplementing a screen. |
-| Write | `write_file`, `edit_file`, `batch_edit_file`, `cp` | VFS paths from `ls`. No `rm` / `mv` / `sed -i`. |
+| Write | `write_file`, `edit_file`, `batch_edit_file`, `cp` | Parameter is `file_path` (`path` also accepted). VFS paths from `ls`. No `rm` / `mv` / `sed -i`. |
 | Shell | `shell` | `figr init` / `figr build` / `figr publish`. No `rm`/`mv`/`sed -i`. |
 | Canvas preview | `shell` → `figr build <app>` | Stamps the node preview. Not optional. |
 | Durable share URL | `publish_artifact` | Canvas Publish button. After a successful build. |

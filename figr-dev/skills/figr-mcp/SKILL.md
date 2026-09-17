@@ -15,7 +15,7 @@ Read `prototype-constraints` before writing a prototype, `design-system` before 
 
 1. `create_project` or `set_project` (`?boardNode=` if they named a node). DS work: `create_design_system` / `set_design_system`.
 2. `tree` / `ls /`.
-3. `write_file` / `edit_file` / `shell`. Prototype paths are `/<app>/…`, never `/deepagent/…`.
+3. `write_file` / `edit_file` / `shell`. The path parameter is `file_path` (`path` also accepted). Prototype paths are `/<app>/…`, never `/deepagent/…`.
 4. `figr build <app>` after a prototype write batch (canvas preview). `figr publish` as its own command after DS writes.
 5. `finish_turn({ query, response })` last.
 

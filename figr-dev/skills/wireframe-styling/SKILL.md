@@ -7,7 +7,7 @@ description: Read before writing a Figr wireframe to /wireframes/<slug>.html ove
 
 ## Delivery
 
-A `data-wireframe` block is a file. `write_file` it to `/wireframes/<slug>.html` — the fragment only (no `<head>`, no wrapper document). The platform wraps it and serves it as a canvas node.
+A `data-wireframe` block is a file. `write_file` it with `file_path: /wireframes/<slug>.html` — the fragment only (no `<head>`, no wrapper document). The platform wraps it and serves it as a canvas node.
 
 **Read before you edit.** `edit_file` matches the file's current text. If you don't already have those bytes this session, `read` first.
 

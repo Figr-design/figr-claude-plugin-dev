@@ -1,10 +1,10 @@
-# Figr - Claude Code marketplace (dev)
+# Figr for Claude Code (dev)
 
-Dev/staging install source. MCP endpoint: **`https://dev-mcp.figr.design/mcp`**
+Staging plugin. Same product as [Figr for Claude Code](https://github.com/Figr-design/figr-claude-plugin), pointed at `https://dev-mcp.figr.design/mcp`.
 
-**Live repo:** https://github.com/Figr-design/figr-claude-plugin-dev (public)
+Figr is an AI product design tool that takes teams from idea to shippable design through exploration, collaboration and iteration — grounded in their existing product and design system.
 
-Prod counterpart: https://github.com/Figr-design/figr-claude-plugin → `https://mcp.figr.design/mcp`
+Do not install this alongside the production plugin in the same session.
 
 ## Install
 
@@ -13,22 +13,8 @@ Prod counterpart: https://github.com/Figr-design/figr-claude-plugin → `https:/
 /plugin install figr-dev@figr-dev
 ```
 
-Do **not** install both `figr@figr` and `figr-dev@figr-dev` in the same session if both register the MCP server name `figr` - pick one.
+## Support
 
-## Layout
-
-```text
-.claude-plugin/marketplace.json   # marketplace name: figr-dev
-figr-dev/                         # plugin → install as figr-dev@figr-dev
-  .claude-plugin/plugin.json
-  .mcp.json                       # → https://dev-mcp.figr.design/mcp
-  skills/figr-mcp/
-  skills/prototype-constraints/
-  skills/design-system/
-  skills/wireframe-styling/
-  skills/skill-creator/
-```
-
-## Sync from monorepo
-
-Source of truth: `coding-agents/figr-claude-plugin-dev/` in private `figr-ai`. Push this folder’s contents to the public repo root when it changes.
+- Docs: https://docs.figr.design/docs/design-intelligence/figr-mcp
+- Email: hi@figr.design
+- Privacy: https://www.figr.design/privacy-policy
